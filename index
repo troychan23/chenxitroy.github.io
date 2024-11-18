@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of [Your Name]">
+    <title>[Your Name] - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .project h3 {
+            margin: 0;
+        }
+        .project a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Your Name]</h1>
+        <p>Professional Portfolio | [Your Job Title]</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>Hello! I’m [Your Name], a [Your Job Title] based in [Your Location]. I specialize in [Your Specialization/Skillset] and have [X years] of experience in the industry. I’m passionate about creating impactful solutions and collaborating with teams to deliver high-quality results.</p>
+    </section>
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+            <li><strong>Job Title</strong> - Company Name (Year - Year)</li>
+            <p>Brief description of your role and achievements.</p>
+            <li><strong>Job Title</strong> - Company Name (Year - Year)</li>
+            <p>Brief description of your role and achievements.</p>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project. What did you build? What technologies did you use?</p>
+                <a href="https://link-to-project.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project. What did you build? What technologies did you use?</p>
+                <a href="https://link-to-project.com" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>If you’d like to get in touch, feel free to reach out to me:</p>
+        <ul>
+            <li>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">https://linkedin.com/in/yourprofile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
